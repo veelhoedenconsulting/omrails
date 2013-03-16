@@ -1,14 +1,15 @@
 <% if user_signed_in? %>
-    				<h1>Welcome Jackhole! How's it hanging?</h1>
-    				<p> Low and to the left!</p>
+    				<h1>Welcome volunteer!</h1>
+    				<p> Thanks for being a blessing to others!</p>
           <% else %>
             
 
-
-	<h1>Welcome to One Month Rails!</h1>
+<div class="hero-unit">
+	<h2>Welcome to ACTS Service Manager!</h2>
 	<p>
-		This is your default home page right now.  Pretty crappy huh?
-		<%= link_to "One Month Rails", "http://onemonthrails.com" %>
+		This page is under construction right now, but plan to move quickly on launching this tool.  For more info on our organization go to the
+		<%= link_to "ACTS Ministries of Iowa", "http://www.actsofiowa.org" %>
+		homepage.
 	</p>
 	<p>
 		<%= link_to "Sign Up Now!", new_user_registration_path, class: "btn btn-primary btn-large"%>
